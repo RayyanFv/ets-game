@@ -1,0 +1,21 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9; /* Warna background */
+    border-radius: 10px; /* Sudut border */
+    font-family: Arial, sans-serif; /* Pilihan font */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan kotak untuk efek angkat */
+}
+
+.highscore-item {
+  font-size: 20px; /* Ukuran font */
+  color: #4CAF50; /* Warna hijau */
+  text-align: center; /* Tengah */
+  background-color: #FFFFFF; /* Warna latar belakang putih */
+  padding: 10px 20px; /* Ruang di dalam elemen */
+  border-radius: 10px; /* Sudut melengkung */
+  border: 2px solid #4CAF50; /* Garis tepi */ 
+  margin: 16px 5px 0; /* Jarak antar elemen */ 
+}
