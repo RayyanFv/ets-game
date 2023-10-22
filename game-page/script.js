@@ -233,16 +233,16 @@ function tampilkanHighestScore() {
 	}
   }
 
-// function getSession() {
-//   if(!sessionStorage.getItem('accessToken')) {
-//     alert('login dulu')
-//     window.location.href = '../';
-//   }
-// }
+function getSession() {
+  if(!sessionStorage.getItem('accessToken')) {
+    alert('login dulu')
+    window.location.href = '../';
+  }
+}
   
 
 function init() {
-  getSession();
+  // getSession();
 
   // simpan selector di global variable
   game = $('#game');
