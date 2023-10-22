@@ -233,12 +233,12 @@ function tampilkanHighestScore() {
 	}
   }
 
-function getSession() {
-  if(!sessionStorage.getItem('accessToken')) {
-    alert('login dulu')
-    window.location.href = '../';
-  }
-}
+// function getSession() {
+//   if(!sessionStorage.getItem('accessToken')) {
+//     alert('login dulu')
+//     window.location.href = '../';
+//   }
+// }
   
 
 function init() {
